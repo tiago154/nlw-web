@@ -5,10 +5,10 @@ import Routes from './Routes'
 
 const App: React.FC = () => {
   return (
-    <div>
+    <>
       <GlobalStyle />
       <Routes />
-    </div>
+    </>
   );
 }
 
