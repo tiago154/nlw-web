@@ -6,8 +6,7 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
-    'standard',
-    'react-app'
+    'standard'
   ],
   globals: {
     Atomics: 'readonly',
@@ -26,6 +25,9 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
-    "react/prop-types": 1
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': ['error'],
+    'react/jsx-uses-react': 'error',
+    'react/prop-types': 1
   }
 }
