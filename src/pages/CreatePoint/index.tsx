@@ -35,7 +35,7 @@ const CreatePoint = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    whatsapp: '',
+    whatsapp: ''
   })
 
   const [selectedUf, setSelectedUf] = useState('0')
@@ -225,7 +225,6 @@ const CreatePoint = () => {
             </div>
           </div>
         </fieldset>
-
 
         <fieldset>
           <legend>
