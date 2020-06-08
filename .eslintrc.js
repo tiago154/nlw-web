@@ -28,6 +28,6 @@ module.exports = {
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['error'],
     'react/jsx-uses-react': 'error',
-    'react/prop-types': 1
+    'react/prop-types': 0
   }
 }
